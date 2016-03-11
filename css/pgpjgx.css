@@ -1,0 +1,121 @@
+/* Main Stylesheet */
+@import url(https://fonts.googleapis.com/css?family=Paytone+One);
+
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+
+/* Global */
+body {
+  background: #3F3E47
+}
+
+p {
+  color: white;
+  font-family: 'Poiret One', cursive;
+  width: 750px;
+  margin: 0 auto;
+  padding: .6em;
+}
+
+h1 {
+  color: white;
+  font-family: 'Paytone One', sans-serif;
+  text-align: center;
+  font-size: 5em;
+  letter-spacing: .03em;
+}
+
+h2 {
+  color: white;
+  font-family: 'Paytone One', sans-serif;
+  text-align: center;
+  font-size: 2.5em;
+  letter-spacing: .04em;
+}
+
+h3 {
+  color: white;
+  font-family: 'Paytone One', sans-serif;
+  text-align: center;
+  font-size: 2.5em;
+  letter-spacing: .04em;
+}
+
+.homepic{
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+    z-index: 5;
+    position: relative;
+}
+#backpics1 {
+  display: inline-block;
+  width: 15%;
+  margin: -100em 95em 4em;
+  opacity: .3;
+  z-index: 1;
+  border-bottom: 20px solid #3B6047;
+}
+#backpics2 {
+  display: inline-block;
+  width: 15%;
+  margin: -37em 38em 15em;
+  opacity: .3;
+  z-index: 2;
+  border-bottom: 20px solid #3B6047;
+}
+
+.rt {
+  letter-spacing: .1em;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 2em;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+nav {
+  font-family: Poiret One;
+  text-align: center;
+}
+
+li {
+  font-size: 1em;
+  margin: 0 auto;
+  color: white;
+  margin: 0 auto;
+}
+
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  background: #2AA1CC;
+}
+
+a:visited {
+  color: white;
+}
+
+a:active{
+  background: white;
+}
+
+a:focus {
+  border-style: solid;
+  color: white;
+  border-radius: 10px;  
+  padding: 10px;
+ 
+}
+
+
+
+/* Typeography */
+/* Homepage */
+/* Resume */
