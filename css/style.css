@@ -43,28 +43,37 @@ h3 {
   letter-spacing: .04em;
 }
 
-.homepic{
-    display: block;
-    width: 30%;
-    margin: 0 auto;
-    z-index: 5;
-    position: relative;
+.homeimage {
+  background: ;
+  text-align: center;
+  position: relative;
+  
+  height: 50%;
+  width: 100%;
 }
+
+#backpics2, 
+#backpics3 {
+  position: absolute;
+}
+
 #backpics1 {
-  display: inline-block;
+  width: 30%;
+}
+
+#backpics2 {
   width: 15%;
-  margin: -100em 95em 4em;
+  left: 20%;
+  top: 25%;
   opacity: .3;
-  z-index: 1;
   border-bottom: 20px solid #3B6047;
   
 }
-#backpics2 {
-  display: inline-bloc;
+#backpics3 {
   width: 15%;
-  margin: -37em 38em 15em;
+  right: 20%;
+  top: 25%;
   opacity: .3;
-  z-index: 2;
   border-bottom: 20px solid #3B6047;
 }
 
@@ -312,6 +321,8 @@ footer {
   background-color: #5D7175;
   margin: 0;
 }
+
+
 @media (max-width: 600px) {
   .header-info {
     top: 10px;
@@ -325,6 +336,7 @@ footer {
     margin: 0 auto;
   }
 }
+
 @media (max-width: 360px) {
   .portfolio-item {
     width: 100%;
